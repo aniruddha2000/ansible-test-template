@@ -1,0 +1,11 @@
+---
+- hosts: webservers
+  tasks:
+  - name: copy file context to other file
+    template: 
+      src: ../templates/test1.j2
+      dest: ../files/test1.txt
+    vars:
+    - name: Aniruddha Basak
+    - age: 19
+    - os_flavour: "{{ ansible_facts['os_family'] }}"

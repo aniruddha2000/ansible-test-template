@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Aniruddha Basak
+  description: Just for testing
+  company: NA
+  license: license (GPL)
+  min_ansible_version: 2.4
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  galaxy_tags: 
+    - tests
+    - templates
+    - jinja2
+dependencies: [] 
